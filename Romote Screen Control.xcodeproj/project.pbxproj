@@ -63,7 +63,6 @@
 		C60869DD190C82B200C77677 /* Romote Screen ControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Romote Screen ControlTests-Info.plist"; sourceTree = "<group>"; };
 		C60869DF190C82B200C77677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C60869E1190C82B200C77677 /* Romote_Screen_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Romote_Screen_ControlTests.m; sourceTree = "<group>"; };
-		C60869EB190C8A5700C77677 /* Script.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Script.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +136,6 @@
 				C60869CD190C82B200C77677 /* Images.xcassets */,
 				C60869C4190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld */,
 				C60869B3190C82B200C77677 /* Supporting Files */,
-				C60869EB190C8A5700C77677 /* Script.sh */,
 			);
 			path = "Romote Screen Control";
 			sourceTree = "<group>";
