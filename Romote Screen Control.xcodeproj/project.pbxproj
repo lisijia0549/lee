@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C60869AB190C82B200C77677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869AA190C82B200C77677 /* Foundation.framework */; };
+		C60869AD190C82B200C77677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869AC190C82B200C77677 /* CoreGraphics.framework */; };
+		C60869AF190C82B200C77677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869AE190C82B200C77677 /* UIKit.framework */; };
+		C60869B1190C82B200C77677 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869B0190C82B200C77677 /* CoreData.framework */; };
+		C60869B7190C82B200C77677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60869B5190C82B200C77677 /* InfoPlist.strings */; };
+		C60869B9190C82B200C77677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C60869B8190C82B200C77677 /* main.m */; };
+		C60869BD190C82B200C77677 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C60869BC190C82B200C77677 /* AppDelegate.m */; };
+		C60869C0190C82B200C77677 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60869BE190C82B200C77677 /* Main_iPhone.storyboard */; };
+		C60869C3190C82B200C77677 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C60869C1190C82B200C77677 /* Main_iPad.storyboard */; };
+		C60869C6190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C60869C4190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld */; };
+		C60869C9190C82B200C77677 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60869C8190C82B200C77677 /* MasterViewController.m */; };
+		C60869CC190C82B200C77677 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C60869CB190C82B200C77677 /* DetailViewController.m */; };
+		C60869CE190C82B200C77677 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C60869CD190C82B200C77677 /* Images.xcassets */; };
+		C60869D5190C82B200C77677 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869D4190C82B200C77677 /* XCTest.framework */; };
+		C60869D6190C82B200C77677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869AA190C82B200C77677 /* Foundation.framework */; };
+		C60869D7190C82B200C77677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869AE190C82B200C77677 /* UIKit.framework */; };
+		C60869D8190C82B200C77677 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60869B0190C82B200C77677 /* CoreData.framework */; };
+		C60869E0190C82B200C77677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C60869DE190C82B200C77677 /* InfoPlist.strings */; };
+		C60869E2190C82B200C77677 /* Romote_Screen_ControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C60869E1190C82B200C77677 /* Romote_Screen_ControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C60869D9190C82B200C77677 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C608699F190C82B200C77677 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C60869A6190C82B200C77677;
+			remoteInfo = "Romote Screen Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C60869A7190C82B200C77677 /* Romote Screen Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Romote Screen Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60869AA190C82B200C77677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C60869AC190C82B200C77677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C60869AE190C82B200C77677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C60869B0190C82B200C77677 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C60869B4190C82B200C77677 /* Romote Screen Control-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Romote Screen Control-Info.plist"; sourceTree = "<group>"; };
+		C60869B6190C82B200C77677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60869B8190C82B200C77677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C60869BA190C82B200C77677 /* Romote Screen Control-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Romote Screen Control-Prefix.pch"; sourceTree = "<group>"; };
+		C60869BB190C82B200C77677 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C60869BC190C82B200C77677 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C60869BF190C82B200C77677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C60869C2190C82B200C77677 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C60869C5190C82B200C77677 /* Romote_Screen_Control.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Romote_Screen_Control.xcdatamodel; sourceTree = "<group>"; };
+		C60869C7190C82B200C77677 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C60869C8190C82B200C77677 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C60869CA190C82B200C77677 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C60869CB190C82B200C77677 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C60869CD190C82B200C77677 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C60869D3190C82B200C77677 /* Romote Screen ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Romote Screen ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C60869D4190C82B200C77677 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C60869DD190C82B200C77677 /* Romote Screen ControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Romote Screen ControlTests-Info.plist"; sourceTree = "<group>"; };
+		C60869DF190C82B200C77677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C60869E1190C82B200C77677 /* Romote_Screen_ControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Romote_Screen_ControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C60869A4190C82B200C77677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869AD190C82B200C77677 /* CoreGraphics.framework in Frameworks */,
+				C60869B1190C82B200C77677 /* CoreData.framework in Frameworks */,
+				C60869AF190C82B200C77677 /* UIKit.framework in Frameworks */,
+				C60869AB190C82B200C77677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60869D0190C82B200C77677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869D5190C82B200C77677 /* XCTest.framework in Frameworks */,
+				C60869D8190C82B200C77677 /* CoreData.framework in Frameworks */,
+				C60869D7190C82B200C77677 /* UIKit.framework in Frameworks */,
+				C60869D6190C82B200C77677 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C608699E190C82B200C77677 = {
+			isa = PBXGroup;
+			children = (
+				C60869B2190C82B200C77677 /* Romote Screen Control */,
+				C60869DB190C82B200C77677 /* Romote Screen ControlTests */,
+				C60869A9190C82B200C77677 /* Frameworks */,
+				C60869A8190C82B200C77677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C60869A8190C82B200C77677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C60869A7190C82B200C77677 /* Romote Screen Control.app */,
+				C60869D3190C82B200C77677 /* Romote Screen ControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C60869A9190C82B200C77677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C60869AA190C82B200C77677 /* Foundation.framework */,
+				C60869AC190C82B200C77677 /* CoreGraphics.framework */,
+				C60869AE190C82B200C77677 /* UIKit.framework */,
+				C60869B0190C82B200C77677 /* CoreData.framework */,
+				C60869D4190C82B200C77677 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C60869B2190C82B200C77677 /* Romote Screen Control */ = {
+			isa = PBXGroup;
+			children = (
+				C60869BB190C82B200C77677 /* AppDelegate.h */,
+				C60869BC190C82B200C77677 /* AppDelegate.m */,
+				C60869BE190C82B200C77677 /* Main_iPhone.storyboard */,
+				C60869C1190C82B200C77677 /* Main_iPad.storyboard */,
+				C60869C7190C82B200C77677 /* MasterViewController.h */,
+				C60869C8190C82B200C77677 /* MasterViewController.m */,
+				C60869CA190C82B200C77677 /* DetailViewController.h */,
+				C60869CB190C82B200C77677 /* DetailViewController.m */,
+				C60869CD190C82B200C77677 /* Images.xcassets */,
+				C60869C4190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld */,
+				C60869B3190C82B200C77677 /* Supporting Files */,
+			);
+			path = "Romote Screen Control";
+			sourceTree = "<group>";
+		};
+		C60869B3190C82B200C77677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60869B4190C82B200C77677 /* Romote Screen Control-Info.plist */,
+				C60869B5190C82B200C77677 /* InfoPlist.strings */,
+				C60869B8190C82B200C77677 /* main.m */,
+				C60869BA190C82B200C77677 /* Romote Screen Control-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C60869DB190C82B200C77677 /* Romote Screen ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				C60869E1190C82B200C77677 /* Romote_Screen_ControlTests.m */,
+				C60869DC190C82B200C77677 /* Supporting Files */,
+			);
+			path = "Romote Screen ControlTests";
+			sourceTree = "<group>";
+		};
+		C60869DC190C82B200C77677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C60869DD190C82B200C77677 /* Romote Screen ControlTests-Info.plist */,
+				C60869DE190C82B200C77677 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C60869A6190C82B200C77677 /* Romote Screen Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60869E5190C82B200C77677 /* Build configuration list for PBXNativeTarget "Romote Screen Control" */;
+			buildPhases = (
+				C60869A3190C82B200C77677 /* Sources */,
+				C60869A4190C82B200C77677 /* Frameworks */,
+				C60869A5190C82B200C77677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Romote Screen Control";
+			productName = "Romote Screen Control";
+			productReference = C60869A7190C82B200C77677 /* Romote Screen Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C60869D2190C82B200C77677 /* Romote Screen ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60869E8190C82B200C77677 /* Build configuration list for PBXNativeTarget "Romote Screen ControlTests" */;
+			buildPhases = (
+				C60869CF190C82B200C77677 /* Sources */,
+				C60869D0190C82B200C77677 /* Frameworks */,
+				C60869D1190C82B200C77677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C60869DA190C82B200C77677 /* PBXTargetDependency */,
+			);
+			name = "Romote Screen ControlTests";
+			productName = "Romote Screen ControlTests";
+			productReference = C60869D3190C82B200C77677 /* Romote Screen ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C608699F190C82B200C77677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					C60869D2190C82B200C77677 = {
+						TestTargetID = C60869A6190C82B200C77677;
+					};
+				};
+			};
+			buildConfigurationList = C60869A2190C82B200C77677 /* Build configuration list for PBXProject "Romote Screen Control" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C608699E190C82B200C77677;
+			productRefGroup = C60869A8190C82B200C77677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C60869A6190C82B200C77677 /* Romote Screen Control */,
+				C60869D2190C82B200C77677 /* Romote Screen ControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C60869A5190C82B200C77677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869C3190C82B200C77677 /* Main_iPad.storyboard in Resources */,
+				C60869CE190C82B200C77677 /* Images.xcassets in Resources */,
+				C60869C0190C82B200C77677 /* Main_iPhone.storyboard in Resources */,
+				C60869B7190C82B200C77677 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60869D1190C82B200C77677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869E0190C82B200C77677 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C60869A3190C82B200C77677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869CC190C82B200C77677 /* DetailViewController.m in Sources */,
+				C60869C9190C82B200C77677 /* MasterViewController.m in Sources */,
+				C60869C6190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld in Sources */,
+				C60869BD190C82B200C77677 /* AppDelegate.m in Sources */,
+				C60869B9190C82B200C77677 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60869CF190C82B200C77677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C60869E2190C82B200C77677 /* Romote_Screen_ControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C60869DA190C82B200C77677 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C60869A6190C82B200C77677 /* Romote Screen Control */;
+			targetProxy = C60869D9190C82B200C77677 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C60869B5190C82B200C77677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60869B6190C82B200C77677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C60869BE190C82B200C77677 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60869BF190C82B200C77677 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C60869C1190C82B200C77677 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60869C2190C82B200C77677 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C60869DE190C82B200C77677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C60869DF190C82B200C77677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C60869E3190C82B200C77677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C60869E4190C82B200C77677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C60869E6190C82B200C77677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Romote Screen Control/Romote Screen Control-Prefix.pch";
+				INFOPLIST_FILE = "Romote Screen Control/Romote Screen Control-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C60869E7190C82B200C77677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Romote Screen Control/Romote Screen Control-Prefix.pch";
+				INFOPLIST_FILE = "Romote Screen Control/Romote Screen Control-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C60869E9190C82B200C77677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Romote Screen Control.app/Romote Screen Control";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Romote Screen Control/Romote Screen Control-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Romote Screen ControlTests/Romote Screen ControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C60869EA190C82B200C77677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Romote Screen Control.app/Romote Screen Control";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Romote Screen Control/Romote Screen Control-Prefix.pch";
+				INFOPLIST_FILE = "Romote Screen ControlTests/Romote Screen ControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C60869A2190C82B200C77677 /* Build configuration list for PBXProject "Romote Screen Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60869E3190C82B200C77677 /* Debug */,
+				C60869E4190C82B200C77677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60869E5190C82B200C77677 /* Build configuration list for PBXNativeTarget "Romote Screen Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60869E6190C82B200C77677 /* Debug */,
+				C60869E7190C82B200C77677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C60869E8190C82B200C77677 /* Build configuration list for PBXNativeTarget "Romote Screen ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60869E9190C82B200C77677 /* Debug */,
+				C60869EA190C82B200C77677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C60869C4190C82B200C77677 /* Romote_Screen_Control.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C60869C5190C82B200C77677 /* Romote_Screen_Control.xcdatamodel */,
+			);
+			currentVersion = C60869C5190C82B200C77677 /* Romote_Screen_Control.xcdatamodel */;
+			path = Romote_Screen_Control.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C608699F190C82B200C77677 /* Project object */;
+}
